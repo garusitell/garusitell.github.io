@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "Home"
-    url: https://zzim2003.github.io/
+    url: https://garusitell.github.io/
 
   - title: "About"
     url: /about/
 
   - title: "GitHub"
-    url: https://github.com/zzim2003
+    url: https://github.com/garusitell
 
   # - title: "Projects"
   #   url: /projects/
