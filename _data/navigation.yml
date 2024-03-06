@@ -18,7 +18,7 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: ""Language""
+  - title: "Language"
     children:
       - title: "Python"
         url: /categories/python/
