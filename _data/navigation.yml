@@ -18,8 +18,8 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "Langaue"
-    url: /categories/langaue/
+  - title: "Language"
+    url: /categories/language/
   - title: "Categories2"
     url: /categories/categories2/
   - title: "Categories3"
