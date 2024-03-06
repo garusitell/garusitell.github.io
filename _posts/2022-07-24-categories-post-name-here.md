@@ -5,7 +5,7 @@ excerpt: "본문의 주요 내용을 여기에 입력하세요"
 categories:
   - Language
 tags:
-  - [tag1, tag2]
+  - [Language]
 
 permalink: /langaue/post-name-here/
 
