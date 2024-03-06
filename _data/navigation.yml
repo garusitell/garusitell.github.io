@@ -18,27 +18,11 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "Langaue"
-    children:
-      - title: "Python"
-        url: /categories"Python/
-      - title: "java"
-        url: /categories/java/
-      - title: "javascript"
-        url: /categories/javascript/
-      - title: "SQL"
-        url: /categories/SQL/
-
-  - title: "Certificate"
-    children:
-      - title: "정보처리기사"
-        url: /categories/정보처리기사/
-      - title: "SQLD"
-        url: /categories/SQLD/
-
-  - title: "Daily"
-    children:
-      - title: "daily"
-        url: /categories/daily/
-      - title: "weekly"
-        url: /categories/weekly/
+  - title: "Categories1"
+    url: /categories/categories1/
+  - title: "Categories2"
+    url: /categories/categories2/
+  - title: "Categories3"
+    url: /categories/categories3/
+  - title: "Categories4"
+    url: /categories/categories4/
