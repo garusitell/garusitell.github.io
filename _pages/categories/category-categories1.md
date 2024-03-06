@@ -1,9 +1,9 @@
 ---
-title: "Categories1"
+title: "Language"
 layout: category
-permalink: /categories/categories1/
+permalink: /categories/language/
 author_profile: true
-taxonomy: Categories1
+taxonomy: language
 sidebar:
   nav: "categories"
 ---
