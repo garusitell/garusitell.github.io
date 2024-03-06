@@ -1,9 +1,9 @@
 ---
-title: "Language"
+title: "Daily"
 layout: category
-permalink: /categories/language/
+permalink: /categories/daily/
 author_profile: true
-taxonomy: Language
+taxonomy: Daily
 sidebar:
   nav: "categories"
 ---

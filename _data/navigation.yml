@@ -22,23 +22,23 @@ categories:
     children:
       - title: "Python"
         url: /categories/python/
-      - title: "java"
+      - title: "Java"
         url: /categories/java/
-      - title: "javascript"
+      - title: "Javascript"
         url: /categories/javascript/
       - title: "SQL"
-        url: /categories/SQL/
+        url: /categories/sql/
 
   - title: "Certificate"
     children:
       - title: "정보처리기사"
         url: /categories/정보처리기사/
       - title: "SQLD"
-        url: /categories/SQLD/
+        url: /categories/sqld/
 
-  - title: "Daily"
+  - title: "Calender"
     children:
-      - title: "daily"
+      - title: "Daily"
         url: /categories/daily/
-      - title: "weekly"
+      - title: "Weekly"
         url: /categories/weekly/
