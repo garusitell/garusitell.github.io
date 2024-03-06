@@ -7,7 +7,7 @@ categories:
 tags:
   - [Language]
 
-permalink: /language/post-name-here/
+permalink: /language/test/
 
 toc: true
 toc_sticky: true
