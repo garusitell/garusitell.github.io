@@ -28,6 +28,8 @@ categories:
         url: /categories/javascript/
       - title: "SQL"
         url: /categories/sql/
+      - title: "Springboot"
+        url: /categories/springboot/  
 
   - title: "Certificate"
     children:
