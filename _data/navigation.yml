@@ -44,3 +44,9 @@ categories:
         url: /categories/daily/
       - title: "Weekly"
         url: /categories/weekly/
+  - title : "2024 1학기"
+    children:
+      - title: "Computer_Graphics"
+        url: /categories/computer_graphics/
+      - title: "Capstone_Design"
+        url: /categories/capstone_design/
