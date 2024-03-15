@@ -44,4 +44,4 @@ static 파일에서 만들었던 index.html파일을 말한다.
 이라고 뜬다.  
 
 대충 화면을 표시하게 되는 과정은 다음과 같다.
-웹 브라우저에서 `localhost:8080/hello-static.html`을 입력하면 내장 톰켓서버에서 `hello-static.html`를 요청 받는다. 그리고 바로 스프링으로 넘겨주는데, 스프링 컨테이너에서 `hello-static` 관련 컨트롤러를 먼저 찾는다. 하지만 매핑된것이 없기에 관련 `resource` 에서 `hello-static.html`을 찾고 `static` 파일이 있는 것을 확인하면 그대로 반환해서 웹페이지로 띄우는 것이다.
+웹 브라우저에서 `localhost:8080/hello-static.html`을 입력하면 내장 톰켓서버에서 `hello-static.html`를 요청 받는다. 그리고 바로 스프링으로 넘겨주는데, 스프링 컨테이너에서 `hello-static` 관련 컨트롤러를 먼저 찾는다. 하지만 매핑된것이 없기에 관련 `resource` 에서 `hello-static.html`을 찾고 `static` 파일이 있는 것을 확인하면 그대로 반환해서 웹페이지로 띄우는 것이다.아
