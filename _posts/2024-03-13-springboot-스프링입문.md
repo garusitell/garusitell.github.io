@@ -1,6 +1,6 @@
 ---
 title: "인프런 - 스프링입문"
-excerpt: "스프링 부트의 개념"
+excerpt: "프로젝트 생성"
 
 categories:
   - Springboot
