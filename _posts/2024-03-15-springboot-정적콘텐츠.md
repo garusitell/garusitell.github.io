@@ -1,5 +1,5 @@
 ---
-title: "인프런 스프링 입문(3)"
+title: "인프런 스프링 입문(4)"
 excerpt: "정적컨텐츠"
 
 categories:
