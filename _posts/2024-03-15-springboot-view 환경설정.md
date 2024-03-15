@@ -1,6 +1,6 @@
 ---
 title: "인프런 - 스프링입문(3)"
-excerpt: view 환경설정"
+excerpt: view 환경설정
 
 categories:
   - Springboot
