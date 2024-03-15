@@ -1,5 +1,5 @@
 ---
-title: "인프런 - 스프링입문"
+title: "인프런 - 스프링입문(1)"
 excerpt: "프로젝트 생성"
 
 categories:
