@@ -1,6 +1,6 @@
 ---
 title: "인프런 스프링 입문(6)"
-excerpt: "api"
+excerpt: "API"
 
 categories:
   - Springboot
