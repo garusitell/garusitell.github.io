@@ -12,8 +12,8 @@ permalink: /weekly/springboot_03_18_비즈니스요구사항관리/
 toc: true
 toc_sticky: true
 
-date: 2024-03-18
-last_modified_at: 2024-03-18
+date: 2024-03-18 20:00:00
+last_modified_at: 2024-03-18 20:00:00
 ---
 
 ## 🦥 비즈니스 요구사항 관리
