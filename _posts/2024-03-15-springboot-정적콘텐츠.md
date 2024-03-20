@@ -7,7 +7,7 @@ categories:
 tags:
   - [Springboot]
 
-permalink: /weekly/springboot_03_15_정적컨텐츠/
+permalink: /springboot/springboot_03_15_정적컨텐츠/
 
 toc: true
 toc_sticky: true

@@ -7,7 +7,7 @@ categories:
 tags:
   - [Springboot]
 
-permalink: /weekly/springboot_03_07_p1/
+permalink: /springboot/springboot_03_07_p1/
 
 toc: true
 toc_sticky: true

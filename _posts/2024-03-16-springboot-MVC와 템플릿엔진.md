@@ -7,7 +7,7 @@ categories:
 tags:
   - [Springboot]
 
-permalink: /weekly/springboot_03_16_MVC와템플릿엔진/
+permalink: /springboot/springboot_03_16_MVC와템플릿엔진/
 
 toc: true
 toc_sticky: true
