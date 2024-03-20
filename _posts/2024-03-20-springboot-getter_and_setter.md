@@ -68,3 +68,6 @@ myAccount.setBalance(1000);
 Account 클래스를 만들었다. 새로은 객체 myAccount에서 Account를 부여하고 500원을 이미 넣었다.
 
 `하지만 뒤에 myAccount.setBalance(1000);` 이라는 코드를 못봤다면? 저걸 바꿀 이유를 모르기에 왜 바꿨지? 어디서 바꿧지? 할 수  
+
+
+출저 : https://colabear754.tistory.com/173
