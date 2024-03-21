@@ -80,6 +80,7 @@ repository에 저장한다.
 <details>
 <summary>결과창</summary>
 <div markdown="1">
+  <img src="![image](https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/45359953/ac42a056-5d3f-4cd5-865e-9ddc9a47191a)" alt="My Image">
 
 </div>
 </details>
