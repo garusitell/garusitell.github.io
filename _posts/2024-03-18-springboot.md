@@ -75,4 +75,4 @@ last_modified_at: 2024-03-18
   - 기본객체처리 : `MappingJackson2HttpMessageConverter` 
   - byte 처리 등등 여러`HttpMessageConverter`가 기본으로 등록되어 있다.
 
- 6
+ 
