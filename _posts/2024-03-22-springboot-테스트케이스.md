@@ -80,8 +80,9 @@ repository에 저장한다.
 <details>
 <summary>결과창</summary>
 <div markdown="1">
-  <img src="![image](https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/45359953/ac42a056-5d3f-4cd5-865e-9ddc9a47191a)" alt="My Image">
+  <img src="![image](https://github.com/garusitell/utterances/assets/45359953/57d81d2f-428e-4fbf-9f50-4fa037518349)" alt="My Image">
 
 </div>
 </details>
 
+![image](https://github.com/garusitell/utterances/assets/45359953/57d81d2f-428e-4fbf-9f50-4fa037518349)
