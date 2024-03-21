@@ -48,8 +48,8 @@ public class Member {
 }
 
 ```
-getter 과 setter 을 사용해야 하나 라는 말이 나왔는데 나 스스로 사용법을 잘 모른는 것 같아서 알아보았다. 다른 포스트로 작성하겠다.
-> 
+getter 과 setter 을 사용해야 하나 라는 말이 나왔는데 나 스스로 사용법을 잘 모르는 것 같아서 알아보았다. 다른 포스트로 작성하겠다.
+>[getter and setter](https://garusitell.github.io/springboot/getter_and_setter/)
 
 
 `package com.spring_study.d03_16.repository;``repository` 패키지를 하나 만들고  
