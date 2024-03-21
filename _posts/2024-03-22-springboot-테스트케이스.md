@@ -5,7 +5,7 @@ excerpt: "회원 리포지토리-테스트 케이스"
 categories:
   - Springboot
 tags:
-  - [Springboot,스프링_입문]
+  - [Springboot]
 
 permalink: /springboot/repository_test/
 
