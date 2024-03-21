@@ -5,7 +5,7 @@ excerpt: "회원 도메인과 리포지토리만들기"
 categories:
   - Springboot
 tags:
-  - [Springboot,스프링 입문]
+  - [Springboot,스프링_입문]
 
 permalink: /springboot/springboot_domain_repository/
 
@@ -173,3 +173,4 @@ public class MemoryMemberRepository implements MemberRepository{
 
  `->` 의 사용법도 다시 알아봐야겠다.
 
+ 8

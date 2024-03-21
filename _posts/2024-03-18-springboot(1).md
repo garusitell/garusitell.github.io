@@ -5,7 +5,7 @@ excerpt: "회원관리 백엔드예제 - 비즈니스 요구사항 관리"
 categories:
   - Springboot
 tags:
-  - [Springboot,스프링 입문]
+  - [Springboot,스프링_입문]
 
 permalink: /springboot/springboot_03_18_비즈니스요구사항관리/
 
@@ -44,3 +44,4 @@ last_modified_at: 2024-03-18 20:00:00
 - 개발을 진행하기 위해 초기 개발단계에서는 구현체로 가벼운 메모리 기반의 데이터 저장소 사용
 
 
+ 7

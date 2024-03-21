@@ -76,3 +76,11 @@ repository에 저장한다.
 
 </div>
 </details>
+
+<details>
+<summary>결과창</summary>
+<div markdown="1">
+
+</div>
+</details>
+

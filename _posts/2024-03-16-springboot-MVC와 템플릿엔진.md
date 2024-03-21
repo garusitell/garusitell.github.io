@@ -5,14 +5,14 @@ excerpt: "MVC와 템플릿 엔진"
 categories:
   - Springboot
 tags:
-  - [Springboot]
+  - [Springboot,스프링_입문]
 
-permalink: /springboot/springboot_03_16_MVC와템플릿엔진/
+permalink: /weekly/springboot_03_16_MVC와템플릿엔진/
 
 toc: true
 toc_sticky: true
 
-date: 2024-03-17
+date: 2024-03-17 
 last_modified_at: 2024-03-17
 ---
 
@@ -76,3 +76,4 @@ required가 true 일때 해당파라미터가 없으면 http 상태 코드를 40
 `localhost:8080/hello-mvc` 에서 내장 톰켓서버로 넘기고 내장 톰켓서버에서 넘기는데 스프링 컨테이너에서 `helloController` 가 맵핑되어 있다는것을 알면 메서드를 `reutrn`할때 `hello-template` 에 `model`에 이름은 `spring` 이라는 것을 넘겨주면 `view`를 찾아서 템플릿을 넘겨준다.
 
 요즘에 스프링에 관해서 알아가고 있다는 것을 많이 느낀다.  
+5

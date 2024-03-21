@@ -5,7 +5,7 @@ excerpt: view 환경설정
 categories:
   - Springboot
 tags:
-  - [Springboot,스프링 입문]
+  - [Springboot,스프링_입문]
 
 permalink: /springboot/springboot_03_15/
 
@@ -110,4 +110,4 @@ spring에서 전달하는 Controller의 메서드를 작성할 때에는 특별�
 안녕하세요 손님이 뜨지 않는다.
 
 이번에도 한방에 되지않아서 아슬아슬 했지만 하나하나 되니까 좀 나은걸 느낀다. 
-후딱후딱 강의를 많이 듣자
+후딱후딱 강의를 많이 듣자4
