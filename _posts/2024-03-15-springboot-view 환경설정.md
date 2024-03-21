@@ -5,7 +5,7 @@ excerpt: view 환경설정
 categories:
   - Springboot
 tags:
-  - [Springboot]
+  - [Springboot,스프링 입문]
 
 permalink: /springboot/springboot_03_15/
 

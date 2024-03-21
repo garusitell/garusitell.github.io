@@ -5,7 +5,7 @@ excerpt: "라이브러리 살펴보기"
 categories:
   - Springboot
 tags:
-  - [Springboot]
+  - [Springboot,스프링 입문]
 
 permalink: /springboot/springboot_03_14/
 

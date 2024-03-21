@@ -5,7 +5,7 @@ excerpt: "API"
 categories:
   - Springboot
 tags:
-  - [Springboot]
+  - [Springboot,스프링 입문]
 
 permalink: /springboot/springboot_03_18_api/
 

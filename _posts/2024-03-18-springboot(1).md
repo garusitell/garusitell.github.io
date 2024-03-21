@@ -1,11 +1,11 @@
 ---
 title: "인프런 스프링 입문(7)"
-excerpt: "회원관리 백엔드예제 - 1)비즈니스 요구사항 관리"
+excerpt: "회원관리 백엔드예제 - 비즈니스 요구사항 관리"
 
 categories:
   - Springboot
 tags:
-  - [Springboot]
+  - [Springboot,스프링 입문]
 
 permalink: /springboot/springboot_03_18_비즈니스요구사항관리/
 

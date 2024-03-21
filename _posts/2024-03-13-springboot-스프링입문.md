@@ -5,7 +5,7 @@ excerpt: "프로젝트 생성"
 categories:
   - Springboot
 tags:
-  - [Springboot]
+  - [Springboot,스프링 입문]
 
 permalink: /springboot/springboot_03_13/
 

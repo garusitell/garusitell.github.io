@@ -5,7 +5,7 @@ excerpt: "정적컨텐츠"
 categories:
   - Springboot
 tags:
-  - [Springboot]
+  - [Springboot,스프링 입문]
 
 permalink: /springboot/springboot_03_15_정적컨텐츠/
 
