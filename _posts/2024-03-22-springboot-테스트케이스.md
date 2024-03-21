@@ -74,15 +74,3 @@ repository에 저장한다.
 -> result 안에 repository의 findById를 이용해서 member 안의 id를 result 에 넣어준다.
 
 
-</div>
-</details>
-
-<details>
-<summary>결과창</summary>
-<div markdown="1">
-  <img src="![image](https://github.com/garusitell/utterances/assets/45359953/57d81d2f-428e-4fbf-9f50-4fa037518349)" alt="My Image">
-
-</div>
-</details>
-
-![image](https://github.com/garusitell/utterances/assets/45359953/57d81d2f-428e-4fbf-9f50-4fa037518349)
