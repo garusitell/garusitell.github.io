@@ -81,6 +81,7 @@ repository에 저장한다.
 하지만 잘들어갔다는 것을 글자로 확인하기에는 불편하다.
 
 그렇기에 `Assertions` 라는 것을 사용하게 되는데 코드는 다음과 같다.
+#### Assertions 사용법
 ``` java
 package com.spring_study.d03_16.repository;
 
@@ -119,5 +120,94 @@ class MemoryMemberRepositoryTest {
 
 <img src = "https://github.com/garusitell/utterances/assets/155941254/5a0eec97-fda1-4a7b-8485-95119d4a0ccf">
 </div>
-</details>
+</details>  
 
+  
+
+
+또 다른 방법이 있는데 이건   
+`import org.assertj.core.api.Assertions;` 를 사용하는 방법이다.  
+다르지만 비슷한데,`Assertions.assertEquals(member, result);`
+대신 `Assertaions.assertThat(member).isEqualTo(result);` 넣어도 같은 기능으로 구현된다. 
+
+여기서 새로운 점은 `import org.assertj.core.api.Assertions;`를
+`import static org.assertj.core.api.Assertions,*;`으로 바꿔쓰면 `Assertaions.assertThat(member).isEqualTo(result);` 에서 `Assertaions`을 생략해도 돌아간다.   
+
+사용시 주의해야하는데 메인코드에서는 무엇을 import 한지 모르기때문에 테스트코드에서만 주로 써야한다는 점이다.
+
+#### findById 테스트 하기
+```java   
+    @Test
+    public void findById(){
+        Member member1 = new Member();
+        member1.setName("spring1");
+        repository.save(member1);
+
+        Member member2 = new Member();
+        member2.setName("spring2");
+        repository.save (member2);
+
+        Member result =  repository.findByName("spring1").get();
+        assertThat(result).isEqualTo(member1);
+    }
+```
+방법은 거진 위와 같다. 
+
+#### findAll() 테스트하기
+```java
+@Test
+    public void findALl(){
+        Member member1 = new Member();
+        member1.setName("spring1");
+        repository.save(member1);
+
+        
+        Member member2 = new Member();
+        member2.setName("spring2");
+        repository.save(member2);
+
+        List<Member> result = repository.findAll();
+
+        assertThat(result.size()).isEqualTo(2);
+    }
+```
+`result`에 `repository.findAll`을 집어넣어서 `result` 사이즈인 `2` 와 같냐고 물어본다.
+
+<details>
+<summary>팁(vscode 기준)</summary>
+<div markdown="1">
+
+`repository.findAll();`을 작성할때,CTRL+SHIFT+R을 입력한뒤에  
+`assign statement to new local variable`를 입력하면 자동으로 list를 만들어준다 와 ! 신세계!
+</div>
+</details>  
+
+실행을 하면 전처럼 아무것도 나오지않는다. 잘 실행됬다는 뜻이겠지.
+
+#### 세개 다 동시에 실행해보기.
+세개를 동시에 돌리면 에러가 난다. 각자 돌릴때는 에러가 나지않았는 데 에러가 났다하면 큰 문제.  
+`테스트는 순서에 보장이 되지 않는다.`  
+즉 모든 테스트는 순서에 상관없이 메소드 별로 실행을 해야한다.  
+순서를 자기 알아서 잡아야지 순서에 의존적으로 실행하면 안되는 것이다.  
+즉 앞에서 설정했던 값이 그대로 다음 메소드값으로 넘어가기 때문에 해당 메소드가 실행될 때 그 앞의 모든것을 초기화 해야한다.
+
+앞뒤에 자동적으로 초기화해주는 코드를 적어준다.
+`repository` 안의 `MemoryMemberRepository.java` 밑에
+``` java
+public void clearStore(){
+      store.clear();
+  }
+```  
+를 적어준다.  
+`test` 안의 `MemoryMemberRepository.java` 안에
+```
+@AfterEach 
+public void AfterEach(){   
+repository.clearStore();
+}
+```
+`@AfterEach`는 메소드가 실행이 끝날때마다 어떤 동작을 하는 메소드(콜백 메소드)이다.
+
+돌리면 잘 된다 와 행복! 코딩!
+
+테스트는  서로 그 순서와 관계없이 서로 의존관계없이 실행되어야한다.
