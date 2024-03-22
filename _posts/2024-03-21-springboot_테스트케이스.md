@@ -116,7 +116,8 @@ class MemoryMemberRepositoryTest {
 <details>
 <summary>오류 사항</summary>
 <div markdown="1">
-<img src = "![image](https://github.com/garusitell/utterances/assets/155941254/5a0eec97-fda1-4a7b-8485-95119d4a0ccf)">
+
+<img src = "https://github.com/garusitell/utterances/assets/155941254/5a0eec97-fda1-4a7b-8485-95119d4a0ccf">
 </div>
 </details>
 
