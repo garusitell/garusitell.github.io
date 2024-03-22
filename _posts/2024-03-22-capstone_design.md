@@ -3,11 +3,11 @@ title: "[포스팅 예시] 이곳에 제목을 입력하세요"
 excerpt: "본문의 주요 내용을 여기에 입력하세요"
 
 categories:
-  - 정보처리기사
+  - Capstone_Design
 tags:
-  - [정보처리기사]
+  - [Capstone_Design]
 
-permalink: /정보처리기사/test/
+permalink: /capstone_design/test/
 
 toc: true
 toc_sticky: true
