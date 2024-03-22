@@ -75,3 +75,48 @@ repository에 저장한다.
 
 </div>
 </details>
+
+결과는 `result = true` 라고 나온다.
+
+하지만 잘들어갔다는 것을 글자로 확인하기에는 불편하다.
+
+그렇기에 `Assertions` 라는 것을 사용하게 되는데 코드는 다음과 같다.
+``` java
+package com.spring_study.d03_16.repository;
+
+import com.spring_study.d03_16.domain.Member;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+
+class MemoryMemberRepositoryTest {
+
+    MemoryMemberRepository repository = new MemoryMemberRepository();
+
+    
+    @Test
+    public void save(){
+        Member member = new Member();
+        member.setName("spring");
+
+        repository.save(member);
+
+        Member result = repository.findById(member.getId()).get();
+        Assertions.assertEquals(member, result);
+    }
+}
+
+```
+`Assertions.assertEquals(member, result);` 는 `member`과 `result`가 값이 일치하는지를 확인을 해주는 것이다.  
+전과는 다르게 출력물에 아무것도 나오지않지만 테스트결과에서는 잘 체크되있다는 걸 알 수 있다.  
+좀 더 직관적으로 하기위해 일부러 다른 값을 넣어보자.  
+ 테스트 결과창에오류가 바로 뜬다. 
+ 
+
+<details>
+<summary>오류 사항</summary>
+<div markdown="1">
+<img src = "![image](https://github.com/garusitell/utterances/assets/155941254/5a0eec97-fda1-4a7b-8485-95119d4a0ccf)">
+</div>
+</details>
+
