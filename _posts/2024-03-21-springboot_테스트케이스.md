@@ -200,7 +200,7 @@ public void clearStore(){
 ```  
 를 적어준다.  
 `test` 안의 `MemoryMemberRepository.java` 안에
-```
+``` java
 @AfterEach 
 public void AfterEach(){   
 repository.clearStore();
