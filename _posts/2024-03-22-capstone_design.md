@@ -1,6 +1,6 @@
 ---
-title: "[포스팅 예시] 이곳에 제목을 입력하세요"
-excerpt: "본문의 주요 내용을 여기에 입력하세요"
+title: "1"
+excerpt: "1요"
 
 categories:
   - Capstone_Design
@@ -12,8 +12,8 @@ permalink: /capstone_design/test/
 toc: true
 toc_sticky: true
 
-date: yyyy-mm-dd
-last_modified_at: yyyy-mm-dd
+date: 2024-03-22
+last_modified_at: 2024-03-22
 ---
 
 ## 🦥 본문
