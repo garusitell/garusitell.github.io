@@ -1,6 +1,6 @@
 ---
-title: "스프링 예외처리"
-excerpt: "스프링의 예외처리에 대한 것"
+title: "[포스팅 예시] 이곳에 제목을 입력하세요"
+excerpt: "본문의 주요 내용을 여기에 입력하세요"
 
 categories:
   - Springboot
@@ -12,8 +12,8 @@ permalink: /springboot/test/
 toc: true
 toc_sticky: true
 
-date: 2024-03-23
-last_modified_at: 2024-03-23
+date: yyyy-mm-dd
+last_modified_at: yyyy-mm-dd
 ---
 
 ## 🦥 본문
