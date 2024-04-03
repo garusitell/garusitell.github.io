@@ -1,13 +1,13 @@
 ---
-title: "[CapstonDesign] 프로젝트 발표"
-excerpt: "ppt,pdf"
+title: "[캡스톤 디자인] 프로젝트 발표"
+excerpt: "PPT. PDF"
 
 categories:
-  - capstion
+  - Capstone_Design
 tags:
-  - [Capston Design]
+  - [Capstone_Design]
 
-permalink: /CapstonDesign/프로젝트발표/
+permalink: /capstone_design/프로젝트발표/
 
 toc: true
 toc_sticky: true
