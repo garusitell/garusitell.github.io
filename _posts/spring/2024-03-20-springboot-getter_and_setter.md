@@ -93,7 +93,7 @@ public class AccountService {
 }
 ```
 원래라면 Account 객체에서 자신의 잔고를 관리하는 책임을 져야하지만 이 코드에서는 AccountService가 출금하려는 계좌의 잔고가 충분한지까지 확인하고 있다.  
-Account가 책임을 다하지 않았기 때문에 AccountService 에서 Account가 할일을 대신 해주고 있는 것이다.
+Account가 책임을 다하지 않았기 때문에 AccountService 에서 Account가 할일을 대신 해주고 있는 것이다.  
 
 이렇게 어떤 객체가 해야할 일을 다른 객체가 해주고 있는데 객체의 구조가 변경된다 그 객체의 일을 대신 해주는 모든 코드를 수정해야한다.
 
@@ -119,6 +119,7 @@ public void withdraw(long id, long amount) {
 1. 계좌의 잔액을 알려줘
 2. 계좌의 금액 인출했을 때 잔액을 계산해보자
 3. 금액을 인출했 때 잔액이 0보다 작은지 확인.
+   
 
 뭔가 이상하다. 그냥 인출할 금액을 전달해서 잔액이 충분한지만 물어보면 되는데 그걸 직접 확인해보는 셈이다.
 
