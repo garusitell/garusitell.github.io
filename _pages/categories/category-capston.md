@@ -20,3 +20,9 @@ sidebar:
 ![image](https://github.com/garusitell/utterances/assets/45359953/82488f50-62bf-4dcf-b1b7-29efa4f9c11e)
 ![image](https://github.com/garusitell/utterances/assets/45359953/49c71ae4-ecf5-41cc-9646-91c4d63551cc)
 
+<hr>
+
+### 목표
+
+[ ] 언어 선택  
+[ ] 일정 정하기  
