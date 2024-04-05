@@ -7,7 +7,7 @@ categories:
 tags:
   - [Springboot]
 
-permalink: /springboot/Add_Home_Ui/
+permalink: /springboot/Home_Ui/
 
 toc: true
 toc_sticky: true
