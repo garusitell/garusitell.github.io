@@ -36,7 +36,9 @@ categories:
       - title: "정보처리기사"
         url: /categories/정보처리기사/
       - title: "SQLD"
-        url: /categories/sqld/
+        url: /categories/sqld/ 
+      - title: "BOOK"
+      url: /categories/books/ 
 
   - title: "Calender"
     children:
