@@ -7,7 +7,7 @@ categories:
 tags:
   - [Book]
 
-permalink: /book/Code_Clean/
+permalink: /book/CLEAN_CODEs/
 
 toc: true
 toc_sticky: true
