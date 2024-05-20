@@ -26,15 +26,13 @@ categories:
         url: /categories/java/
       - title: "Javascript"
         url: /categories/javascript/
-      - title: "SQL"
-        url: /categories/sql/
+      - title: "DB"
+        url: /categories/DB/
       - title: "Springboot"
         url: /categories/springboot/  
 
   - title: "Certificate"
     children:
-      - title: "정보처리기사"
-        url: /categories/정보처리기사/
       - title: "SQLD"
         url: /categories/sqld/ 
       - title: "BOOK"
