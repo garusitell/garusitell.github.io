@@ -1,9 +1,9 @@
 ---
-title: "SQL"
+title: "DB"
 layout: category
-permalink: /categories/sql/
+permalink: /categories/db/
 author_profile: true
-taxonomy: SQL
+taxonomy: DB
 sidebar:
   nav: "categories"
 ---
