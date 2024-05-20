@@ -21,7 +21,7 @@ categories:
   - title: "Language"
     children:
       - title: "Python"
-        url: /categories/python/
+        url: /python/
       - title: "Java"
         url: /categories/java/
       - title: "Javascript"
@@ -36,7 +36,7 @@ categories:
       - title: "SQLD"
         url: /categories/sqld/ 
       - title: "BOOK"
-      url: /categories/books/ 
+        url: /categories/books/ 
 
   - title: "Calender"
     children:
