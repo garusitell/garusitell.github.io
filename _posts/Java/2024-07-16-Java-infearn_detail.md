@@ -1,5 +1,5 @@
 ---
-title: "[자바 입문]  기본형과 참조형"
+title: "[자바 입문]  기본형과 참조형 - 내가 헷갈린 예시문항"
 excerpt: "김영한의 실전 자바 - 기본편"
 
 categories:
@@ -7,7 +7,7 @@ categories:
 tags:
   - [Java]
 
-permalink: /java/java_study_07_16/
+permalink: /java/java_study_07_16_example/
 
 toc: true
 toc_sticky: true
@@ -16,70 +16,58 @@ date: 2024-07-16
 last_modified_at: 2024-07-16
 ---
 
-## 🦥 본문
-#### 클래스가 필요한 이유
-학생이라는 클래스가 만들었고, 클래스에 정의된 변수들을 맴버 변수 , 또는 필드라고한다. 
-- 맴버변수 (Member Variable) : 이 변수들은 특정 클래스에 소속된 맴버이기 때문에 이렇게 부른다.
-- 필드(Field) : 데이터 항목을 가르키는 전통적인 용어이다. 데이터베이스 . 엑셀 등에서 데이터 각각의 항목을 필드라 한다.
-- 자바에서 맴버 변수 , 필드는 같은 뜻이다. 클래스에 소속된 변수를 뜻한다. 
--> **클래스는 관례상 대문자로 시작하고 낙타 표기법을 사용한다**
+## 🦥 메서드에서 객체 반환
+```java
+public class Method2 {
+    public static void main(String[] args) {
+        Student student1 = createStudent("학생1",15,80);
+        Student student2 = createStudent("학생2",16,90);
 
-#### 클래스와 사용자 정의 타입
-- 타입은 데이터의 종류나 형태를 나타낸다.
-- 사용자가 직접 정의하는 사용자 정의 타입을 만들려면 설계도가 필요한데 , 이 설계도를 클래스 라고 한다.
-- 설계도인 클래스를 사용해서 실제 메모리에 만들어진 실체를 객체 또는 인스턴스 라고 한다.
-- 클래스를 통해서 사용자가 원하는 종류의 데이터 타입을 마음껏 정의할 수 있다.
+//        Student student2 = new Student(); //Shift + F6 를 누르면 같은 단어는 전부 같이 고칠 수 있다.
+//        initStudent(student2,"학생2",16,80);
 
+        System.out.println("이름 : " + student1.name + " 나이 : " + student1.age + " 성적 : " + student1.grade );
+        System.out.println("이름 : " + student2.name + " 나이 : " + student2.age + " 성적 : " + student2.grade );
 
-### 변수선언
-`Student student1// Student 변수선언
-- `Student student1`
-	-  `Student` 타입을 받을 수 있는 변수를 선언한다.
-	- `int`는 정수를 ,`String`은 문자를 담을 수 있듯이 `Student` 는 `Student` 타입의 객체(인스턴스)의 참조값을 를 보관할 수 있다.
-### 객체 생성
-`student1 = new Student() // Student 인스턴스 생성`
-![스크린샷 2024-07-10 오후 7 45 30](https://github.com/user-attachments/assets/70ecfaf8-35ea-45f3-a158-27d7b0fb77b0)
-- `student1 = new Studet()`코드를 분석해보자
-	-  `new Studnet`를 통해 인스턴스를 만들면서 참조값이 생긴다.
-	- 그리고 `student1`에 참조값이 보관된다.
-	- 객체를 생성할 때마다 다른 객체값이 생긴다.
+        printStudent(student1);
+        printStudent(student2);
+    }
 
-### 객체 사용
-![스크린샷 2024-07-10 오후 7 54 04](https://github.com/user-attachments/assets/62e56b5d-258c-43d3-853b-b999f246c56e)
+    static Student createStudent (String name , int age , int grade){
+        Student student = new Student();
+        student.name = name;
+        student.age = age;
+        student.grade = grade;
+        return student;
 
-- studnet1.name 을 하면 참조값을 찾아가서 그 해당에 맞는 값을 표시
+    }
+    static void printStudent(Student student) {
+        System.out.println("이름 : " + student.name + " 나이 : " + student.age + " 성적 : " + student.grade );
+
+    }
 
 
-### 클래스 , 객체 , 인스턴스 정리
-- ### 클래스
-	- 클래스는 객체를 생성하기 위한 '틀' 또는 '설계도' 이다.
-- #### 객체 인스턴스
-	- 객체랑 인스턴스는 똑같은 의미이며 특정 클래스로부터 생성된 객체를 의미한다. 메모리에 존재하는 무언가이다.
-	- **인스턴스** 는 주로 관계 -> 어떤 클래스에서 나왔는 지 말한다.
-
-### 배열에 참조값 대입
-`Student students = new Stuendt[2]`
-![스크린샷 2024-07-10 오후 8 03 40](https://github.com/user-attachments/assets/99ad6f67-ed3a-4e72-8c3b-98a3f9228527)
-![스크린샷 2024-07-10 오후 8 04 29](https://github.com/user-attachments/assets/5ab5e8ed-208e-4492-b210-b2e0bba518f4)
-**주의 ! : 변수에는 인스턴스 자체가 들어가 있는 것이 아니라 , 인스턴스의 취치를 가리키는 참조값이 들어있을 뿐이다! 따라서 대입(=) 시에 인스턴스가 복사되는 것이 아니라 참조값만 복사된다.**
-
-### 향상된 for문(Enhanced For Loop)
-```
-for(Student s : students){
-	System.out.println("이름": s.name + "나이:" + s.age + "성적:" + s.grade);
 }
 ```
+- `createStudent()` 라는 메서드를 만들고 객체를 생성하는 부분도 이 메서드안에 함꼐 포함했으며 , 메서드 하나로 객체의 생성과 초기값 모두 처리한다.  
+메서드안에서 객체를 생성했기 때문에 만들어진 객체를 메서드 밖에서 사용할 수 있게 돌려주어야 한다.  그래야 메서드 밖에서 이 사용할 수 있다. 메서드는 호출 결과를 반환 할 수 있으며 , 메서드의 반환 기능을 사용해서 만들어진 객체의 참조값을 메서드 밖에서 반환하면 된다.
+![스크린샷 2024-07-16 오후 4 57 57](https://github.com/user-attachments/assets/d84090d7-d0f8-4802-828d-64c65b2ad981)
 
-
-# 기본형 vs 참조형 1 - 시작
-#### 쉽게 이해하는 팁
-기본형을 제외한 나머지는 모두 참조형이다.
-- 기본형은 소문자로 시작한다 . `int , long , double , boolean`모두 소문자로 시작한다.
-	- 기본형은 자바가 기본으로 제공하는 데이터 타입이다. 이러한 기본형은 개발자가 새로 정의할 수 없다 . 개발자는 참조형인클래스만 직접 정의할 수 있다.
-- 클래스는 대문자로 시작한다 .
-	- 클래스는 모두  참조형이다.
-
-#### 참고 - String
-자바에서 `String`은 특별하다 . `String`은 사실 클래스이며 , 따라서 참조형이다. 그런데 기본형처럼 문자 값을 바로 대입할 수 있으며 , 문자는 매우 자주 다루기 때문에 특별하게 편의 기능을 제공한다.
-
+### NullPointerException
+`NullPointerException`은 이름 그대로 `null`을 가리키다(Pointer)인데 , 이때 발생하는 예외(Exception)이다. `null`이라면 없다는 뜻으로 , 찾아갈 수 있는 객체(인스턴스)가 없다. `NullPointerException`은 이처럼 null에 .(dot)을 찍었을 때 발생한다.
+```java
+public class NullMain {
+    public static void main(String[] args) {
+        Data data = null;
+        data.value = 10; //NullPointerException 예외 발생
+        System.out.println("data = " + data.value);
+    }
+}
+```
+`data` 참조형 변수에는 `null`값이 들어가있다.
+```java
+Exception in thread "main" java.lang.NullPointerException: Cannot assign field "value" because "data" is null
+	at ref.NullMain.main(NullMain.java:6)
+```
+결과적으로 `null` 값은 참조할 주소가 존재하지 않다는 뜻이다. 따라서 객체 인스턴스가 존재하지 않으므로 다음과 같이 `java.lang.NullPointerException` 이 발생하고 , 프로그램이 종료된다. 참고로 예외가 발생했기 떄문에 그 다음은 로직은 수행되지 않는다.
 출처 : https://www.inflearn.com/course/김영한의-실전-자바-기본편/dashboard
