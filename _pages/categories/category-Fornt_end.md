@@ -1,9 +1,9 @@
 ---
-title: "Javascript"
+title: "Front_end"
 layout: category
-permalink: /categories/javascript/
+permalink: /categories/Front_end/
 author_profile: true
-taxonomy: Javascript
+taxonomy: Front_end
 sidebar:
   nav: "categories"
 ---

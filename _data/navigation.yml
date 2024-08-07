@@ -24,12 +24,14 @@ categories:
         url: /python/
       - title: "Java"
         url: /categories/java/
-      - title: "Javascript"
-        url: /categories/javascript/
+      - title: "Front_end"
+        url: /categories/Front_end/
       - title: "DB"
         url: /categories/DB/
       - title: "Springboot"
-        url: /categories/springboot/  
+        url: /categories/springboot/
+      - title: "JPA"
+        url: /categories/JPA/   
 
   - title: "Certificate"
     children:
@@ -44,11 +46,4 @@ categories:
         url: /categories/daily/
       - title: "Weekly"
         url: /categories/weekly/
-  - title : "2024 1학기"
-    children:
-      - title: "Computer_Graphics"
-        url: /categories/computer_graphics/
-      - title: "Capstone_Design"
-        url: /categories/capstone_design/
-      - title : "NCS"
-        url: /categories/NCS/
+  

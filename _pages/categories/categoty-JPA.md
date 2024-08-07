@@ -1,9 +1,9 @@
 ---
-title: "NCS"
+title: "JPA"
 layout: category
-permalink: /categories/ncs/
+permalink: /categories/JPA/
 author_profile: true
-taxonomy: NCS
+taxonomy: JPA
 sidebar:
   nav: "categories"
 ---

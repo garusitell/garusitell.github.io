@@ -3,11 +3,11 @@ title: "[포스팅 예시] 이곳에 제목을 입력하세요"
 excerpt: "본문의 주요 내용을 여기에 입력하세요"
 
 categories:
-  - NCS
+  - JPA
 tags:
-  - [NCS]
+  - [JPA]
 
-permalink: /weekly/ncs/
+permalink: /JPA/test/
 
 toc: true
 toc_sticky: true
