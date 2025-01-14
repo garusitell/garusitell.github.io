@@ -32,7 +32,8 @@ categories:
         url: /categories/springboot/
       - title: "JPA"
         url: /categories/JPA/
-       
+      - title: "CodingTest"
+        url: /categories/CodingTest/             
 
   - title: "Certificate"
     children:
