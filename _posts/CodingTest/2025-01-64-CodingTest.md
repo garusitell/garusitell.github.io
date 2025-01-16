@@ -7,7 +7,7 @@ categories:
 tags:
   - [자료구조, 정렬 , 이분탐색, 해시를 사용한 집합과 맵]
 
-permalink: /CodingTest/2667/
+permalink: /CodingTest/11663/
 
 toc: true
 toc_sticky: true
@@ -18,7 +18,7 @@ last_modified_at: 2025-01-14
 
 ## 🦥 본문
 
-https://www.acmicpc.net/problem/2776
+https://www.acmicpc.net/problem/11663
 
 <img width="1319" alt="image" src="https://github.com/user-attachments/assets/f48c4be8-ced2-4b07-bffd-d118403dc7c3" />
 
